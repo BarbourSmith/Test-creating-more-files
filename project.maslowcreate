@@ -8,15 +8,41 @@
     "topLevel": true,
     "allAtoms": [
         {
+            "atomType": "Circle",
+            "name": "Circle",
+            "x": 0.5865758754863813,
+            "y": 0.6183206106870228,
+            "uniqueID": 198587,
+            "ioValues": [
+                {
+                    "name": "diameter",
+                    "ioValue": 10
+                }
+            ]
+        },
+        {
             "atomType": "Output",
             "name": "Output",
             "x": 0.9805447470817121,
             "y": 0.5,
             "uniqueID": 286015,
-            "ioValues": []
+            "ioValues": [
+                {
+                    "name": "number or geometry",
+                    "ioValue": "atoms/968872/198587Circle"
+                }
+            ]
         }
     ],
-    "allConnectors": [],
+    "allConnectors": [
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "number or geometry",
+            "ap2Primary": false,
+            "ap1ID": 198587,
+            "ap2ID": 286015
+        }
+    ],
     "fileTypeVersion": 1,
     "simplify": false,
     "filetypeVersion": 1,
